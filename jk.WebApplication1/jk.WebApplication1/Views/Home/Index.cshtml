@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<html>
+
+<head>
+
+    <title>
+        Title dotNET
+    </title>
+
+    <link href="~/css/Site.css" rel="stylesheet" />
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body class="container"> <!--Container is the Bootstrap class-->
+    <img src="~/images/logo.jpg" class="logo" alt="Logo" />
+
+    <!--img src="~/MyStaticFiles/dummy.jpg" alt="Dummy"/>-->
+
+    <h1 class="h1">Welcome to Property </h1>
+    <input type="button" value="Click me" class="btn-dark"/>
+    <h2>@DateTime.Now</h2>
+    <h5>Description of Property</h5>
+</body>
+
+<script src="~/lib/jquery/jquery.js"></script>
+
+</html>
+
+<script>
+    $(document).ready(function () {
+        alert("page loaded");
+    }
+        )
+</script>
